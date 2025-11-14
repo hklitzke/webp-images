@@ -1,0 +1,29 @@
+{
+    "name": "hklitzke/webp-images",
+    "description": "Create webp image on resize of jpg and png files",
+    "keywords": [
+        "silverstripe",
+        "webp",
+        "image"
+    ],
+    "version": "1.0.0",
+    "type": "silverstripe-vendormodule",
+    "authors": [{
+        "name": "Holger Klitzke",
+        "email": "info@bbrandfoundation.de",
+        "homepage": "https://www.bbrandfoundation.de/",
+        "role": "Developer"
+        }
+        ],
+    "extra": {
+    "installer-name": "webp-image"
+    },
+    "support": {
+    "license": "none",
+    "require": {
+        "silverstripe/framework": "^4.1 || ^5.0 || ^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6 || ^11.3"
+    }
+}
